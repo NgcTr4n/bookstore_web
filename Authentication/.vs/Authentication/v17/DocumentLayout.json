@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|d:\\@hsu\\2333\\ptweb\\demo\\authentication\\authentication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\authentication\\views\\cart\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\views\\cart\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\authentication\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\authentication\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\authentication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\authentication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\authentication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\authentication\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{78A317DE-6266-42D1-8761-80406C5A44F0}|Authentication\\Authentication.csproj|solutionrelative:authentication\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Authentication\\Models\\OrderDetail.cs",
+              "ToolTip": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Authentication\\Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:40:36.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Authentication\\Models\\Product.cs",
+              "ToolTip": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Models\\Product.cs",
+              "RelativeToolTip": "Authentication\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:40:34.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Authentication\\Models\\Order.cs",
+              "ToolTip": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Models\\Order.cs",
+              "RelativeToolTip": "Authentication\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:35:46.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Authentication\\Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Authentication\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:33:18.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Authentication\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Authentication\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAB0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T02:28:07.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Views\\Cart\\Order.cshtml",
+              "RelativeDocumentMoniker": "Authentication\\Views\\Cart\\Order.cshtml",
+              "ToolTip": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Views\\Cart\\Order.cshtml",
+              "RelativeToolTip": "Authentication\\Views\\Cart\\Order.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T02:09:02.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Authentication\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Authentication\\Controllers\\CartController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:06:41.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Authentication\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\@HSU\\2333\\PTWEB\\Demo\\Authentication\\Authentication\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "Authentication\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAYwFsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-12T02:03:15.953Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

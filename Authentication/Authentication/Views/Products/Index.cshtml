@@ -1,0 +1,216 @@
+﻿@using Authentication.Helper
+
+@model PaginatedList<Authentication.Models.Product>
+
+
+
+@{
+
+    ViewData["Title"] = "Index";
+}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, sans-serif;
+    }
+
+    body {
+/*         background-color: #BED1CF;
+ */        /*         padding: 20px;
+     */
+    }
+    /* Table Styles */
+    /* Table Styles */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #FFF;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow-x: auto; /* Enable horizontal scroll on smaller screens */
+    }
+
+        .table th,
+        .table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #BED1CF;
+            color: #FFF;
+            font-weight: bold;
+        }
+
+        .table tbody tr:hover {
+            background-color: #f5f5f5;
+        }
+
+    /* Link Styles */
+    a {
+        color: #E78895;
+        text-decoration: none;
+/*         margin-right: 10px;
+ */        transition: color 0.2s;
+    }
+
+        a:hover {
+            text-decoration: underline;
+            color: #D66D7C;
+        }
+
+    /* Button Styles */
+    .btn {
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #E78895;
+        color: #FFF;
+        text-decoration: none;
+        transition: background-color 0.2s, color 0.2s;
+    }
+
+        .btn:hover {
+            background-color: #D66D7C;
+        }
+
+    /* Page Title */
+    h1 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    /* Create New Link */
+    .create-new-link {
+        margin-bottom: 20px;
+    }
+
+    /* Form Input Styles */
+    input[type="text"],
+    select {
+        width: 100%;
+        padding: 8px;
+        margin: 6px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    /* Pagination Styles */
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+        .pagination a {
+            color: #E78895;
+            padding: 8px 12px;
+            text-decoration: none;
+            transition: background-color 0.2s, color 0.2s;
+            margin: 0 4px;
+        }
+
+            .pagination a:hover {
+                background-color: #E78895;
+                color: #FFF;
+            }
+
+        .pagination .active a {
+            background-color: #E78895;
+            color: #FFF;}
+</style>
+<h1>Index</h1>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="float-sm-end">
+            <a href="#" class="btn btn-outline-light btn_search_sort" data-bs-toggle="modal"
+               data-bs-target="#modalSearching" title="Searching Books">
+                <i class="bi bi-search"></i> Search
+            </a>
+            <a href="#" class="btn btn-outline-light btn_search_sort" data-bs-toggle="modal"
+               data-bs-target="#modalSorting" title="Sorting Books">
+                <i class="bi bi-arrow-down-up"></i> Sort
+            </a>
+        </div>
+    </div>
+</div>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Discount
+            </th>
+            <th>
+                Category
+            </th>
+           @*  <th>
+                @Html.DisplayNameFor(model => model[0].Available)
+            </th> *@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    <img src="~/products/@(item.Id).png"  style="width:50px"/>
+                </td>
+            <td>
+              @item.Description
+            </td>
+            <td>
+              @item.Price
+            </td>
+            <td>
+               @item.Discount
+            </td>
+            <td>
+                @(item.Category.Name)
+            </td>
+               @*  <td>
+                    @(item.Available == 0 ? "Hết hàng" : "Còn hàng")
+                </td> *@
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+@await Html.PartialAsync("_NavigationButtons")
+@await Html.PartialAsync("_SortingDialog1")
+@await Html.PartialAsync("_SearchingDialog1")
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".go").click(function () {
+                //lay value cua page-index
+                var pageIndex = $("#page-index").val();
+                //tao url
+                url = `/?pageIndex=${pageIndex}`
+                //cap nhat href bang url
+                $(this).attr("href", url);
+            });
+        });
+    </script>
+}

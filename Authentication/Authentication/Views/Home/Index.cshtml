@@ -1,0 +1,171 @@
+﻿@using Authentication.Helper
+@model PaginatedList<Product>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, sans-serif;
+    }
+
+    body {
+/*         background-color: #BED1CF;
+ *//*         padding: 20px;
+ */    }
+
+    .card {
+        border: none;
+        border-radius: 10px;
+        position: relative;
+        background-color: #FFF7F1;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .item_discount {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 50px;
+        height: 50px;
+        background-color: #E78895;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF7F1;
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        font-size: 1.2rem;
+    }
+
+    .btn_addtocard,
+    .btn_search_sort {
+        background-color: #FFF7F1;
+        color: #E78895;
+        border: 1px solid #E78895;
+        padding: 8px 16px;
+        margin-top: 10px;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .btn_addtocard:hover,
+    .btn_search_sort:hover {
+        background-color: #E78895;
+        color: #FFF7F1;
+        border: 1px solid #E78895;
+    }
+
+    .btn_search_sort {
+        margin-left: 10px;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: #333;
+    }
+
+    .card-text {
+        font-size: 1rem;
+        color: #666;
+        line-height: 1.4;
+    }
+
+    .btn-primary {
+        background-color: #BED1CF;
+        border-color: #BED1CF;
+        color: #FFF7F1
+    }
+
+    .btn-primary:hover {
+        background-color: #D66D7C;
+        border-color: #D66D7C;
+    }
+
+   
+</style>
+
+
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="float-sm-end">
+            <a href="#" class="btn btn-outline-light btn_search_sort" data-bs-toggle="modal"
+               data-bs-target="#modalSearching" title="Searching Pets">
+                <i class="bi bi-search"></i> Search
+            </a>
+            <a href="#" class="btn btn-outline-light btn_search_sort" data-bs-toggle="modal"
+               data-bs-target="#modalSorting" title="Sorting Pets">
+                <i class="bi bi-arrow-down-up"></i> Sort
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row pt-2">
+    @foreach (var item in Model)
+    {
+            <div class="col-md-6 col-lg-4 mb-3">
+            <div class="card h-100" style="background-color: #FFF">
+                    <img class="card-img-top" src="~/products/@(item.Id).png" alt="Card image cap" />
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Description</h5>
+                        <p class="card-text">
+                           <strike>@(item.Price.ToString("C2"))</strike>
+                            <span style="color:red;font-size:24px;">@((item.Price * (1 - item.Discount)).ToString("C2"))</span>
+                        <span class="item_discount shadow-2xl">
+                                @item.Discount.ToString("P0")
+                            </span>
+                        <br />
+                        @item.Category.Name
+                        </p>
+                    <a class="btn btn-primary btn_addtocard" style="width:100%" asp-controller="Cart" asp-action="Add" asp-route-id="@item.Id"><i class="bi bi-cart-plus"></i> Add to Cart</a>
+
+                    </div>
+                </div>
+            </div>
+      @*   <div class="col-sm-4" style="padding:10px;">
+            <img src="~/products/@(item.Id).png" width="80%" /><br />
+            Id: @item.Id<br />
+            Description: @item.Description<br />
+            Old price: <strike>@(item.Price.ToString("C2"))</strike><br />
+            New price: <span style="color:red;font-size:24px;">@((item.Price * (1 - item.Discount)).ToString("C2"))</span><br />
+            Discount: @item.Discount.ToString("P0")<br />
+            Category: @item.Category.Name<br />
+            <a class="card__button" asp-controller="Cart" asp-action="Add" asp-route-id="@item.Id"><i class="bi bi-cart-plus"></i> Add to Cart</a>
+        </div> *@
+       
+    }
+</div>
+@await Html.PartialAsync("_NavigationButtons2")
+@await Html.PartialAsync("_SortingDialog")
+@await Html.PartialAsync("_SearchingDialog")
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".go").click(function () {
+                //lay value cua page-index
+                var pageIndex = $("#page-index").val();
+                //tao url
+                url = `/?pageIndex=${pageIndex}`
+                //cap nhat href bang url
+                $(this).attr("href", url);
+            });
+        });
+    </script>
+}

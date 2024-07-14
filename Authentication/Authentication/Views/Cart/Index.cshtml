@@ -1,0 +1,229 @@
+﻿@model Authentication.Helper.Cart
+
+@{
+    ViewData["Title"] = "Your Cart";
+}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, sans-serif;
+    }
+
+    body {
+        /*         background-color: #BED1CF;
+     */ /*         padding: 20px;
+         */
+    }
+    /* Table Styles */
+    /* Table Styles */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: #FFF;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow-x: auto; /* Enable horizontal scroll on smaller screens */
+    }
+
+        .table th,
+        .table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #BED1CF;
+            color: #FFF;
+            font-weight: bold;
+        }
+
+        .table tbody tr:hover {
+            background-color: #f5f5f5;
+        }
+
+    /* Link Styles */
+    a {
+        color: #E78895;
+        text-decoration: none;
+        /*         margin-right: 10px;
+     */ transition: color 0.2s;
+    }
+
+        a:hover {
+            text-decoration: underline;
+            color: #D66D7C;
+        }
+
+    /* Button Styles */
+    .btn {
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #E78895;
+        color: #FFF;
+        text-decoration: none;
+        transition: background-color 0.2s, color 0.2s;
+    }
+
+        .btn:hover {
+            background-color: #D66D7C;
+        }
+
+    /* Page Title */
+    h1 {
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    /* Create New Link */
+    .create-new-link {
+        margin-bottom: 20px;
+    }
+
+    /* Form Input Styles */
+    input[type="text"],
+    select {
+        width: 100%;
+        padding: 8px;
+        margin: 6px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    /* Pagination Styles */
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+        .pagination a {
+            color: #E78895;
+            padding: 8px 12px;
+            text-decoration: none;
+            transition: background-color 0.2s, color 0.2s;
+            margin: 0 4px;
+        }
+
+            .pagination a:hover {
+                background-color: #E78895;
+                color: #FFF;
+            }
+
+        .pagination .active a {
+            background-color: #E78895;
+            color: #FFF;
+</style>
+
+
+<h1>Your Cart</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                No.
+            </th>
+            <th>
+                Id
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                Category
+            </th>
+            <th style="text-align:right;">
+                Quantity
+            </th>
+            <th style="text-align:right;">
+                Old Price
+            </th>
+            <th style="text-align:right;">
+                Discount
+            </th>
+            <th style="text-align:right;">
+                New Price
+            </th>
+            <th style="text-align:right;">
+                Amount
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int count = 0;
+        }
+        @foreach (var item in Model.List.Values)
+        {
+            <tr>
+                <td>@(++count)</td>
+                <td>@item.Id</td>
+                <td><img src="~/products/@(item.Id).png" width="100" /></td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+                <td style="text-align:right;">
+                    @* @Html.TextBoxFor(modelItem => item.Quantity) *@
+                    <input type="number" min="1" id="quantity-@item.Id" value="@item.Quantity" />
+                </td>
+                <td style="text-align:right;">
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td style="text-align:right;">
+                    @Html.DisplayFor(modelItem => item.Discount)
+                </td>
+                <td style="text-align:right;">
+                    @Html.DisplayFor(modelItem => item.NewPrice)
+                </td>
+                <td style="text-align:right;">
+                    @Html.DisplayFor(modelItem => item.Amount)
+                </td>
+                <td>
+                    <a class="update" asp-action="Update" data-id="@item.Id" asp-route-id="@item.Id" asp-route-quantity="-1">Update</a> |
+                    <a asp-action="Remove" asp-route-id="@item.Id">Remove</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="9" style="text-align:right;">Total:</th>
+            <th style="text-align:right;">@Model.TotalAmount.ToString("C2")</th>
+            <th><a asp-action="Empty">Empty</a></th>
+        </tr>
+    </tfoot>
+</table>
+<a class="btn btn-primary" asp-action="CheckOut">Check Out</a>
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".update").click(function () {
+                //lay value cua thuoc tinh data-id
+                var id = $(this).data("id")
+                //lay value cua input $("#quantity-" + id)
+                var quantity = $("#quantity-" + id).val();
+                //lay value cua thuoc tinh href
+                var url = $(this).attr("href");
+                //C1: thay -1 bang quantity trong url
+                //url = url.replace("-1", quantity);
+                //C2: tao url
+                url = `/Cart/Update/${id}?quantity=${quantity}`
+                //cap nhat href bang url
+                $(this).attr("href", url);
+            });
+        });
+    </script>
+}

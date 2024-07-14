@@ -1,0 +1,64 @@
+﻿@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="float-sm-end">
+            <a class="btn btn-sm btn-primary @prevDisabled"
+               asp-route-pageindex="1"
+               title="First Page"
+               aria-disabled="@(!Model.HasPreviousPage)">
+                <i class="bi bi-chevron-bar-left"></i>
+            </a>
+            <a class="btn btn-sm btn-primary @prevDisabled"
+               asp-route-pageindex="@(Model.PageIndex - 1)"
+               title="Previous Page"
+               aria-disabled="@(!Model.HasPreviousPage)">
+                <i class="bi bi-chevron-left"></i>
+            </a>
+            <a class="btn btn-sm btn-primary @nextDisabled"
+               asp-route-pageindex="@(Model.PageIndex + 1)"
+               title="Next Page"
+               aria-disabled="@(!Model.HasNextPage)">
+                <i class="bi bi-chevron-right"></i>
+            </a>
+            <a class="btn btn-sm btn-primary @nextDisabled"
+               asp-route-pageindex="@(Model.TotalPages)"
+               title="Last Page"
+               aria-disabled="@(!Model.HasNextPage)">
+                <i class="bi bi-chevron-bar-right"></i>
+            </a>
+            <a class="btn btn-sm btn-primary go" title="Go to a specific page">Go</a>
+            <input class="btn btn-sm btn-outline-primary"
+                   style="width: 40px; padding-left: 0; padding-right: 0;"
+                   type="number"
+                   min="1"
+                   max="@(Model.TotalPages)"
+                   id="page-index"
+                   value="@(Model.PageIndex)" />
+            /@(Model.TotalPages)
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Disable links with the 'disabled' class
+            $(".btn.disabled").click(function (event) {
+                event.preventDefault();
+                return false;
+            });
+
+            $(".go").click(function () {
+                var pageIndex = $("#page-index").val();
+                // Create URL with pageIndex
+                var url = `/?pageIndex=${pageIndex}`;
+                // Redirect to the new URL
+                window.location.href = url;
+            });
+        });
+    </script>
+}

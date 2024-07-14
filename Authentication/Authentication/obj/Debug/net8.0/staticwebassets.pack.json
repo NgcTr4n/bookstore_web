@@ -1,0 +1,529 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Authentication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Authentication.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\css\\demo.css",
+      "PackagePath": "staticwebassets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\config.js",
+      "PackagePath": "staticwebassets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\1.png",
+      "PackagePath": "staticwebassets\\products\\1.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\10.png",
+      "PackagePath": "staticwebassets\\products\\10.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\11.png",
+      "PackagePath": "staticwebassets\\products\\11.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\12.png",
+      "PackagePath": "staticwebassets\\products\\12.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\13.png",
+      "PackagePath": "staticwebassets\\products\\13.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\14.png",
+      "PackagePath": "staticwebassets\\products\\14.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\15.png",
+      "PackagePath": "staticwebassets\\products\\15.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\16.png",
+      "PackagePath": "staticwebassets\\products\\16.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\17.png",
+      "PackagePath": "staticwebassets\\products\\17.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\18.png",
+      "PackagePath": "staticwebassets\\products\\18.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\19.png",
+      "PackagePath": "staticwebassets\\products\\19.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\2.png",
+      "PackagePath": "staticwebassets\\products\\2.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\20.png",
+      "PackagePath": "staticwebassets\\products\\20.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\21.png",
+      "PackagePath": "staticwebassets\\products\\21.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\22.png",
+      "PackagePath": "staticwebassets\\products\\22.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\23.png",
+      "PackagePath": "staticwebassets\\products\\23.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\24.png",
+      "PackagePath": "staticwebassets\\products\\24.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\25.png",
+      "PackagePath": "staticwebassets\\products\\25.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\26.png",
+      "PackagePath": "staticwebassets\\products\\26.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\27.png",
+      "PackagePath": "staticwebassets\\products\\27.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\28.png",
+      "PackagePath": "staticwebassets\\products\\28.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\29.png",
+      "PackagePath": "staticwebassets\\products\\29.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\3.png",
+      "PackagePath": "staticwebassets\\products\\3.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\30.png",
+      "PackagePath": "staticwebassets\\products\\30.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\4.png",
+      "PackagePath": "staticwebassets\\products\\4.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\5.png",
+      "PackagePath": "staticwebassets\\products\\5.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\6.png",
+      "PackagePath": "staticwebassets\\products\\6.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\7.png",
+      "PackagePath": "staticwebassets\\products\\7.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\8.png",
+      "PackagePath": "staticwebassets\\products\\8.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\9.png",
+      "PackagePath": "staticwebassets\\products\\9.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\products\\logo.png",
+      "PackagePath": "staticwebassets\\products\\logo.png"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\PTWeb\\Demo\\Authentication\\Authentication\\Authentication\\wwwroot\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Authentication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Authentication.props",
+      "PackagePath": "build\\Authentication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Authentication.props",
+      "PackagePath": "buildMultiTargeting\\Authentication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Authentication.props",
+      "PackagePath": "buildTransitive\\Authentication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

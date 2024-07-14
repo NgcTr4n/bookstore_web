@@ -1,0 +1,90 @@
+﻿<style>
+    .modal-dialog {
+        max-width: 800px; 
+    .modal-content {
+        background-color: #FFF7F1; 
+        border-radius: 10px; 
+    }
+
+    .modal-header {
+        background-color: #BED1CF; 
+        color: #FFF7F1;
+        border-bottom: none; 
+        border-top-left-radius: 10px; 
+        border-top-right-radius: 10px;
+    }
+
+    .modal-title {
+        margin: 0; 
+        font-weight: bold; 
+    }
+
+    .modal-body {
+        padding: 20px; 
+    }
+
+    .form-group {
+        margin-bottom: 15px; 
+    }
+
+    .form-control {
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+    }
+
+    .btn-primary {
+        background-color: #BED1CF;
+        border-color: #BED1CF;
+    }
+
+        .btn-primary:hover {
+            background-color: #D66D7C; 
+            border-color: #D66D7C; 
+        }
+
+    .btn-close {
+        color: #FFF;
+        opacity: 1; 
+    }
+</style>
+<div class="modal" id="modalSearching">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form>
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title"><i class="bi bi-search"></i> Searching Books</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="categoryId">Category:</label>
+                        <select id="categoryId" name="categoryId" class="form-control" asp-items="ViewBag.CategoryList">
+                            <option value="-1">--- All ---</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description:</label>
+                        <input type="text" class="form-control" id="description" name="description" placeholder="Enter description" value="@ViewBag.FilterInfo.Description">
+                    </div>
+                    <div class="form-group">
+                        <label for="fromPrice">From price:</label>
+                        <input type="text" class="form-control" id="fromPrice" name="fromPrice" placeholder="Enter min price" value="@ViewBag.FilterInfo.FromPrice">
+                    </div>
+                    <div class="form-group">
+                        <label for="toPrice">To price:</label>
+                        <input type="text" class="form-control" id="toPrice" name="toPrice" placeholder="Enter max price" value="@ViewBag.FilterInfo.ToPrice">
+                    </div>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" name="op" value="search-do"><i class="bi bi-search"></i> Search</button>
+                    <button type="submit" class="btn btn-primary" name="op" value="search-clear"><i class="bi bi-x-circle"></i> Clear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
